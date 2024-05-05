@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Donate or Help</title>
+  <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-choice">
+      <h1>Donate or Help</h1>
+      <button class="donor-btn active">Donor Login</button>
+      <button class="ngo-btn">NGO Login</button>
+    </login-choice>
+    <div class="login-form donor-form">
+      <h2>Donor Login</h2>
+      <form id="donor-login-form">
+        <label for="donor-username">Username:</label>
+        <input type="text" id="donor-username" name="donor-username" required>
+        <label for="donor-password">Password:</label>
+        <input type="password" id="donor-password" name="donor-password" required>
+        <div class="login-options">
+          <div class="signup">
+            <a href="signupd.html">Sign Up</a>
+          <a href="#">Forgot Password?</a>
+        </div>
+        </div>
+        <div class="sub">
+        <button type="submit"><a href="page1d.html">Sign In</a></button>
+      </div>
+      </form>
+    </div>
+    <div class="login-form ngo-form">
+      <h2>NGO Login</h2>
+      <form id="ngo-login-form">
+        <label for="ngo-username">Username:</label>
+        <input type="text" id="ngo-username" name="ngo-username" required>
+        <label for="ngo-password">Password:</label>
+        <input type="password" id="ngo-password" name="ngo-password" required>
+        <div class="login-options">
+          <a href="signupn.html">Sign Up</a>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <div class="sub">
+        <button type="submit"><a href="page1n.html">Sign In</a></button>
+      </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

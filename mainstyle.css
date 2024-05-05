@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+background-image: url('don.jpg'); /* Add your background image path */
+background-size: cover;
+background-position: center;
+
+
+/*margin-right: 20px; */
+
+ flex: 1;
+  
+}
+
+body{
+    font-family: 'Poppins';
+    background-color:#EBE0C4;
+    padding-left:5px;
+    padding-right: 5px;
+    
+    
+}
+#navebar{
+    display:flex;
+    justify-content: space-between;
+    margin-right:100%;
+    
+}
+.navlinks
+{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+  
+}
+ li{
+    margin: 20px;
+}
+
+.name_container
+{
+   font-weight:600;
+   font-size:24px;
+   line-height: 36px;
+   color: blue;
+}
+#home
+{
+    display:flex;
+    justify-content: space-between;
+    margin-top:100px;
+   
+}
+.home_left{
+    margin-left:20% ;
+    margin-top:0%;
+    margin-bottom:30%;
+    
+}
+
+.web_designer
+{
+    font-size:90px;
+    font-weight:bolder ;
+    color:rgb(195, 24, 24);
+    line-height: 116px;
+    background-color: none;
+
+}
+.home_hello
+{
+    font-size:28px;
+    color: blue;
+
+}
+
+
+#about{
+    font-size: 20px;
+    background-color:rgb(149, 29, 29);
+}
+.about_para{
+    width: 100%;
+    color: white;
+    font-style: italic;
+}
+.brown_head{
+    color: white;
+    font-weight:800 ;
+    font-size:50px ;
+    line-height:116px ;
+    margin-bottom:20px ;
+}
+.about_exp{
+    margin-top: 80px;
+    padding-left:200px ;
+    color:blue;
+}
+.about exp li{
+    margin-top: 30px;
+}
+#skills
+{
+    font-size: 20px;
+    text-decoration:none;
+   
+}
+.skill_item{
+    border:none;
+    width:250px;
+    padding:10px;
+    text-align: center;
+    color:white
+    
+}
+.skill_item a{
+    text-decoration: none;
+    color: white;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+}
+.skill_container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.detail_con
+{  
+   justify-content: space-between;
+   text-decoration:none;
+color: rgb(13, 13, 14);
+
+
+}
+.image
+{ display: flex;
+    width: 50%;
+    
+}
+
+.contact-section p {
+    line-height: 1.5;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-section label {
+    font-weight: bold;
+}
+
+.contact-section input,
+.contact-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-section button {
+    background-color: rgb(142, 6, 6);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.con{
+    background-color: whitesmoke;
+}
+.abt{
+    background-color:#E6BEB6;
+}

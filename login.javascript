@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.login-container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.login-choice {
+  margin-bottom: 20px;
+}
+
+.login-choice h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.login-choice button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.donor-btn.active, .ngo-btn.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.login-form {
+  display: none;
+  margin-top: 20px;
+}
+
+.login-form h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.login-options

@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(153, 33, 33);
+  }
+  .n{
+    background-color: rgb(187, 220, 220);
+    width: 800px;
+    border-radius: 200px 200px 200px 200px;
+    margin-left:25%;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .donation-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .donation-categories ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .donation-categories li {
+    margin-bottom: 20px;
+  }
+  
+  .donation-categories a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+  }
+  
+  .donation-categories a h3 {
+    margin-right: 10px;
+  }
+  
+  .donation-categories a span {
+    font-weight: bold;
+  }
+  
